@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+   
+
+
+#Container{
+    background: url(./assets/background\ netflix.jpeg);
+    padding-bottom: 140px;
+    
+}
+#button-entrar{
+    background-color: #e50914;
+    font-size: 15px;
+    padding: 8px 18px 8px 18px;
+    border: 0;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+
+}
+
+nav{
+    padding: 28px 56px;
+}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+
+#paragrafo-assista{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+#paragrafo-assitir{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+input{
+    width: 500px;
+    padding-left: 10px;
+}
+
+#button-Email{
+    width: 250px;
+    background-color: #e50914;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+#button-Email:hover{
+    opacity: 0.6;
+}
+
+#Formulario{
+    display:flex ;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70px 0 ;
+}
+
+#rodape{
+    background-color: black;
+    border-top: 5px solid #303030 ;
+    padding:70px 0;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+#button-pergunta{
+    width: 800px;   
+    background-color: #303030;
+    height: 70px;
+    border: 0;
+    font-size: 24px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+}
+
+#image-pergunta{
+    float: right;
+    margin-top: 8px;
+    transform: rotate(45deg);
+
+}
+
+/*#image-pergunta-girar{
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
+}*/
+
+#pergunta{
+    width: 800px;
+    background-color: #303030;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    padding: 24px;
+    display: none;
+
+}
+.paragrafo-pergunta{
+    font-size: 24px;
+}
+
+
+
+
+
+
